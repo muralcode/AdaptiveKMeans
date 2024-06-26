@@ -1,4 +1,4 @@
-# Custom Unsupervided AdaptiveKMeans Machine Learning Library
+# Custom Unsupervised AdaptiveKMeans Machine Learning Library
 
 ## Overview
 
