@@ -1,0 +1,24 @@
+# CMake build directory
+/build/
+/out/
+# CMake cache and state files
+/CMakeCache.txt
+/CMakeFiles/
+/CMakeScripts/
+/CMakeScripts/
+
+# Generated Makefiles
+/*.cmake
+/*.make
+
+# Compiled binaries
+*.o
+*.obj
+*.a
+*.exe
+*.out
+*.so
+*.dll
+
+# Miscellaneous
+.DS_Store
