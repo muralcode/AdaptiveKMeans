@@ -6,11 +6,11 @@ project(AdaptiveKMeans)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-# Set path to Eigen headers
-set(EIGEN3_INCLUDE_DIR "C:/eigen-3.4.0")
+# Manually set the Eigen include directory
+include_directories("/usr/local/include/eigen3")  # Adjust this path as necessary
 
-# Include directories
-include_directories(${EIGEN3_INCLUDE_DIR} include)
+# Include directories for your project
+include_directories("${PROJECT_SOURCE_DIR}/include")
 
 # Add library
 add_library(AdaptiveKMeans STATIC src/AdaptiveKMeans.cpp)
